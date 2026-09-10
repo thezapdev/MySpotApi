@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "5HkQ1821+DA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\karol\\Desktop\\MySpotDev\\MySpot.Api\\MySpot.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\karol\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.7\\microsoft.aspnetcore.openapi.10.0.7.nupkg.sha512",
+    "C:\\Users\\karol\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Pakiet „Microsoft.OpenApi” 2.0.0 ma znane wysoka luki w zabezpieczeniach o ważności, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "projectPath": "C:\\Users\\karol\\Desktop\\MySpotDev\\MySpot.Api\\MySpot.Api.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\karol\\Desktop\\MySpotDev\\MySpot.Api\\MySpot.Api.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
