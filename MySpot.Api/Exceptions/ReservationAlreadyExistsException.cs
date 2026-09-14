@@ -1,6 +1,6 @@
 namespace MySpot.Api.Exceptions;
 
-public class ReservationAlreadyExistsException : CustomException
+public sealed class ReservationAlreadyExistsException : CustomException
 {
     public string Name { get; }
     public DateTime Date { get; }
