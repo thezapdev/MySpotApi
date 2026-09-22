@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lSCzHkbriOg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\karol\\Desktop\\MySpotDev\\MySpot.Infrastucture\\MySpot.Infrastucture.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\karol\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.12\\microsoft.extensions.dependencyinjection.abstractions.10.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

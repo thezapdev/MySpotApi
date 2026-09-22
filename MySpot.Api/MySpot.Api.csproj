@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.7" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MySpot.Application\MySpot.Application.csproj" />
+    <ProjectReference Include="..\MySpot.Infrastucture\MySpot.Infrastucture.csproj" />
+  </ItemGroup>
+
 </Project>

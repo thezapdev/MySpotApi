@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ACallSiteFactory_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FSourcesCache_003F51986e38149d7168a48244177b10e8ce2c0faf1d4b35fbbeaf26cb3d652320_003FCallSiteFactory_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AServiceProvider_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FSourcesCache_003Fd7e2ce30531b7a2d56142411c5e51c3d516aafcb44e7628167b959660a65c_003FServiceProvider_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5a22adaa_002D11ab_002D460e_002D9720_002Df4c6bbecc010/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="given_invalid_date_add_reservation_should_fail" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::43BA4553-5C81-EBBD-D5A5-8DE9CAEDD799::net10.0::MySpotTests.WeeklyParkingSpotTests.given_invalid_date_add_reservation_should_fail&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::43BA4553-5C81-EBBD-D5A5-8DE9CAEDD799::net10.0::MySpotTests.WeeklyParkingSpotTests.given_reservation_for_already_existing_date_add_reservation_should_fail&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::43BA4553-5C81-EBBD-D5A5-8DE9CAEDD799::net10.0::MySpotTests.WeeklyParkingSpotTests.given_valid_reservation_add_reservation_should_succeed&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::43BA4553-5C81-EBBD-D5A5-8DE9CAEDD799::net10.0::MySpotTests.Services.ReservationServiceTests.given_reservation_for_not_taken_date_add_reservation_should_succeed&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

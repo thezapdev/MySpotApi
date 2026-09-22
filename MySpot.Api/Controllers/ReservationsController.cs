@@ -1,7 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
 using MySpot.Api.Commands;
+using MySpot.Api.Entities;
 using MySpot.Api.Models;
 using MySpot.Api.Services;
+using MySpot.Api.ValueObjects;
+using MySpot.Core.ValueObjects;
 
 namespace MySpot.Api.Controllers;
 
@@ -9,7 +12,12 @@ namespace MySpot.Api.Controllers;
 [Route("reservations")]
 public class ReservationsController : ControllerBase
 {
-    private readonly ReservationService _service = new();
+    private readonly IReservationService _service;
+
+    public ReservationsController(ReservationService service)
+    {
+        _service = service;
+    }
 
     [HttpGet]
     public ActionResult<IEnumerable<Reservation>> Get() => Ok(_service.GetAllWeekly());
@@ -41,7 +49,7 @@ public class ReservationsController : ControllerBase
     [HttpPut("{id:guid}")]
     public ActionResult Put(Guid id, ChangeReservationLicensePlate command)
     {
-        if (!_service.Update (command with { ReservationId = id }))
+        if (!_service.Update(command with { ReservationId = id }))
         {
             return NoContent();
         }
