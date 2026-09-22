@@ -36,6 +36,43 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "MySpot.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "MySpot.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MySpot.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MySpot.Application.dll": {}
+        }
+      },
+      "MySpot.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/MySpot.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MySpot.Core.dll": {}
+        }
+      },
+      "MySpot.Infrastucture/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "MySpot.Application": "1.0.0",
+          "MySpot.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MySpot.Infrastucture.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MySpot.Infrastucture.dll": {}
+        }
       }
     }
   },
@@ -75,11 +112,28 @@
         "microsoft.openapi.2.0.0.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "MySpot.Application/1.0.0": {
+      "type": "project",
+      "path": "../MySpot.Application/MySpot.Application.csproj",
+      "msbuildProject": "../MySpot.Application/MySpot.Application.csproj"
+    },
+    "MySpot.Core/1.0.0": {
+      "type": "project",
+      "path": "../MySpot.Core/MySpot.Core.csproj",
+      "msbuildProject": "../MySpot.Core/MySpot.Core.csproj"
+    },
+    "MySpot.Infrastucture/1.0.0": {
+      "type": "project",
+      "path": "../MySpot.Infrastucture/MySpot.Infrastucture.csproj",
+      "msbuildProject": "../MySpot.Infrastucture/MySpot.Infrastucture.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Microsoft.AspNetCore.OpenApi >= 10.0.7"
+      "Microsoft.AspNetCore.OpenApi >= 10.0.7",
+      "MySpot.Application >= 1.0.0",
+      "MySpot.Infrastucture >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -106,7 +160,14 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\karol\\Desktop\\MySpotDev\\MySpot.Application\\MySpot.Application.csproj": {
+              "projectPath": "C:\\Users\\karol\\Desktop\\MySpotDev\\MySpot.Application\\MySpot.Application.csproj"
+            },
+            "C:\\Users\\karol\\Desktop\\MySpotDev\\MySpot.Infrastucture\\MySpot.Infrastucture.csproj": {
+              "projectPath": "C:\\Users\\karol\\Desktop\\MySpotDev\\MySpot.Infrastucture\\MySpot.Infrastucture.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,3 +1,9 @@
 <Solution>
+  <Folder Name="/Tests/">
+    <Project Path="tests\MySpotTests\MySpotTests.csproj" Type="Classic C#" />
+  </Folder>
   <Project Path="MySpot.Api/MySpot.Api.csproj" />
+  <Project Path="MySpot.Application\MySpot.Application.csproj" Type="Classic C#" />
+  <Project Path="MySpot.Core\MySpot.Core.csproj" Type="Classic C#" />
+  <Project Path="MySpot.Infrastucture\MySpot.Infrastucture.csproj" Type="Classic C#" />
 </Solution>
